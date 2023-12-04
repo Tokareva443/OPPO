@@ -1,0 +1,8 @@
+﻿  IncomeTest.cpp
+D:\Programming\C++\OPPO\IncomeTest\IncomeTest.cpp(63,37): warning C4101: message: неиспользованная локальная переменная
+D:\Programming\C++\OPPO\IncomeTest\IncomeTest.cpp(109,37): warning C4101: message: неиспользованная локальная переменная
+D:\Programming\C++\OPPO\IncomeTest\IncomeTest.cpp(121,37): warning C4101: message: неиспользованная локальная переменная
+D:\Programming\C++\OPPO\IncomeTest\IncomeTest.cpp(135,37): warning C4101: message: неиспользованная локальная переменная
+D:\Programming\C++\OPPO\IncomeTest\IncomeTest.cpp(151,37): warning C4101: message: неиспользованная локальная переменная
+     Создается библиотека D:\Programming\C++\OPPO\x64\Debug\IncomeTest.lib и объект D:\Programming\C++\OPPO\x64\Debug\IncomeTest.exp
+  IncomeTest.vcxproj -> D:\Programming\C++\OPPO\x64\Debug\IncomeTest.dll
