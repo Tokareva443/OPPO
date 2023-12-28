@@ -1,3 +1,7 @@
+// This is a personal academic project. Dear PVS-Studio, please check it.
+
+// PVS-Studio Static Code Analyzer for C, C++, C#, and Java: http://www.viva64.com
+
 #include "pch.h"
 #include "CppUnitTest.h"
 #include<sstream>
@@ -40,7 +44,7 @@ namespace IncomeTest
 			DateStruct date;
 
 			date.setDD(12);
-			date.setMM(12);
+			date.setMM(10);
 			date.setYY(21);
 
 			std::string dt = "Дата: 12.12.21";
@@ -70,7 +74,7 @@ namespace IncomeTest
 		TEST_METHOD(validIncomePrintTest) {
 			income inc;
 			DateStruct date;
-			std::vector<income> ivec;
+			std::string str = "Source1";
 
 			date.setDD(12);
 			date.setMM(12);
@@ -79,7 +83,7 @@ namespace IncomeTest
 			inc.setDate(date);
 
 			inc.setSum(3200);
-			inc.setSource("Source1");
+			inc.setSource(str);
 
 			std::string res = "Дата: 12.12.21 Источник дохода: Source1 Сумма:  3200\n";
 
@@ -179,8 +183,7 @@ namespace IncomeTest
 		TEST_METHOD(invalidIncomePrintTest) {
 			income inc;
 			DateStruct date;
-			std::vector<income> ivec;
-
+			std::string str = "Source2";
 			date.setDD(13);
 			date.setMM(12);
 			date.setYY(21);
@@ -188,7 +191,7 @@ namespace IncomeTest
 			inc.setDate(date);
 
 			inc.setSum(3200);
-			inc.setSource("Source2");
+			inc.setSource(str);
 			
 			std::string d = "Дата: 12.12.21 Источник дохода: 33.3 Сумма: 3200\n";
 
